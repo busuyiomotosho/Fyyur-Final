@@ -22,10 +22,10 @@ pip install postgres
 pip install Flask
 pip install Flask-Migrate
 ```
-> **Note** - If we do not mention the specific version of a package, then the default latest stable package will be installed. 
+> **Note** - If a specific version of a package isn't mentioned, then the default latest stable package will be installed. 
 
 ### 2. Frontend Dependencies
-You must have the **HTML**, **CSS**, and **Javascript** with [Bootstrap 3](https://getbootstrap.com/docs/3.4/customize/) for our website's frontend. Bootstrap can only be installed by Node Package Manager (NPM). Therefore, if not already, download and install the [Node.js](https://nodejs.org/en/download/). Windows users must run the executable as an Administrator, and restart the computer after installation. After successfully installing the Node, verify the installation as shown below.
+You must have the **HTML**, **CSS**, and **Javascript** with [Bootstrap 3](https://getbootstrap.com/docs/3.4/customize/) for the website's frontend. Bootstrap can only be installed by Node Package Manager (NPM). Otherwise, download and install the [Node.js](https://nodejs.org/en/download/). Windows users must run the executable as an Administrator, and restart the the machine after installation. After successfully installing the Node, verify the installation as shown below.
 ```
 node -v
 npm -v
